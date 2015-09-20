@@ -9,7 +9,7 @@
 
 	<context-param>
 		<param-name>UI</param-name>
-		<param-value>ru.davist.study.vaadin.ui.HelloUI</param-value>
+		<param-value>ru.davist.study.vaadin.ui.LoginUI</param-value>
 	</context-param>
 	
 	<servlet>
