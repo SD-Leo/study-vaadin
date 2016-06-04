@@ -1,15 +1,17 @@
 # vaadin-study
-В проектах сохранены файлы Eclipse для простоты импорта, но в общем так делать низя.
+В проектах содержатся только файлы Maven. Чтобы подключить проект в IDE небходимо его импротировать как maven проект.
+* Eclipse: _File -> Import -> Maven -> Existing Maven Projects_
+* IDEA: _File -> New -> Module from Existing Sources... -> Import module from external model (Maven)_
 
-### Проект **vaadin-from-scratch-dynamic**
-Создавался на базе Eclipse (mars 4.5) web dynamic project(3.1),  а затем ковертировался в Maven проект. Java 1.7.
+### Проект **vaadin-hello-web-scratch**
+Создавался на базе Eclipse (mars 4.5) web dynamic project(3.1), а затем ковертировался в Maven проект. Java 1.7.
 Были добавлены следующие maven-зависимости
 
 * vaadin-server
 * vaadin-themes
 * vaadin-client-compiled (иначе ругался, что не найден widgetset)
 
-Context root изменен с *vaadin-from-scratch-dynamic* на *vaadin*, т.е. при запуск через Eclipse адрес будет http://localhost:8080/vaadin
+Context root изменен с _vaadin-hello-web-scratch_ на _vaadin_, т.е. при запуск через Eclipse адрес будет http://localhost:8080/vaadin
 
 Запуск web проекта настроект через web.xml
 
