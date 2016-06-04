@@ -38,7 +38,7 @@ buildNumber.properties
 #############
 
 # Eclipse Core
-#.project
+.project
 
 *.pydevproject
 .metadata
@@ -50,7 +50,7 @@ tmp/
 *.swp
 *~.nib
 local.properties
-#.settings/
+.settings/
 .loadpath
 
 # External tool builders
@@ -63,7 +63,7 @@ local.properties
 .cproject
 
 # JDT-specific (Eclipse Java Development Tools)
-#.classpath
+.classpath
 
 # Java annotation processor (APT)
 .factorypath
@@ -76,6 +76,25 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+
+###################
+## Intellij IDEA ##
+###################
+# Created by https://www.gitignore.io/api/intellij
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+# IntelliJ output
+/out/
 
 
 ##############
